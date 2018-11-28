@@ -46,6 +46,8 @@ def using_flatten(array)
 end
 
 def using_delete(array,str)
-  array.delete(str)
+  array.delete(array.includes?(str))
 end
-  
+
+def using_delete_at(array,index)
+  array.delete(index)
