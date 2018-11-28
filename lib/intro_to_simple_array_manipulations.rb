@@ -9,3 +9,13 @@ end
 def using_pop(array)
   array.pop
 end
+
+def pop_with_args(array,n)
+  arr = []
+  for x in 1..n do
+    e = array.pop
+    arr.push(e)
+  end
+  arr
+end
+  
