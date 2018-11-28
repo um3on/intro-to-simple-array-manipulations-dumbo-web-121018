@@ -18,6 +18,13 @@ def pop_with_args(array,n)
   end
   arr
 end
+
 def using_shift(array)
   x = array.shift
+end
+
+def shift_with_args(array,num)
+  for x in 1..num do
+    array.shift
+  end
 end
